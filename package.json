@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "init": "npm install",
-    "install": "bower install",
     "start": "node src/server/server.js",
     "test": "gulp test"
   },
