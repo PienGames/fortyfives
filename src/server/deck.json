@@ -1,0 +1,338 @@
+{
+  "cards": [
+    {
+      "suiteId": 1,
+      "faceValue": "A",
+      "name": "Ace",
+      "cardId": 1
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "K",
+      "name": "King",
+      "cardId": 2
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "Q",
+      "name": "Queen",
+      "cardId": 3
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "J",
+      "name": "Jack",
+      "cardId": 4
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "2",
+      "name": "2",
+      "cardId": 5
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "3",
+      "name": "3",
+      "cardId": 6
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "4",
+      "name": "4",
+      "cardId": 7
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "5",
+      "name": "5",
+      "cardId": 8
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "6",
+      "name": "6",
+      "cardId": 9
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "7",
+      "name": "7",
+      "cardId": 10
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "8",
+      "name": "8",
+      "cardId": 11
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "9",
+      "name": "9",
+      "cardId": 12
+    },
+    {
+      "suiteId": 1,
+      "faceValue": "10",
+      "name": "10",
+      "cardId": 13
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "A",
+      "name": "Ace",
+      "cardId": 14
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "K",
+      "name": "King",
+      "cardId": 15
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "Q",
+      "name": "Queen",
+      "cardId": 16
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "J",
+      "name": "Jack",
+      "cardId": 17
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "2",
+      "name": "2",
+      "cardId": 18
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "3",
+      "name": "3",
+      "cardId": 19
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "4",
+      "name": "4",
+      "cardId": 20
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "5",
+      "name": "5",
+      "cardId": 21
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "6",
+      "name": "6",
+      "cardId": 22
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "7",
+      "name": "7",
+      "cardId": 23
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "8",
+      "name": "8",
+      "cardId": 24
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "9",
+      "name": "9",
+      "cardId": 25
+    },
+    {
+      "suiteId": 2,
+      "faceValue": "10",
+      "name": "10",
+      "cardId": 26
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "A",
+      "name": "Ace",
+      "cardId": 27
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "K",
+      "name": "King",
+      "cardId": 28
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "Q",
+      "name": "Queen",
+      "cardId": 29
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "J",
+      "name": "Jack",
+      "cardId": 30
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "2",
+      "name": "2",
+      "cardId": 31
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "3",
+      "name": "3",
+      "cardId": 32
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "4",
+      "name": "4",
+      "cardId": 33
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "5",
+      "name": "5",
+      "cardId": 34
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "6",
+      "name": "6",
+      "cardId": 35
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "7",
+      "name": "7",
+      "cardId": 36
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "8",
+      "name": "8",
+      "cardId": 37
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "9",
+      "name": "9",
+      "cardId": 38
+    },
+    {
+      "suiteId": 3,
+      "faceValue": "10",
+      "name": "10",
+      "cardId": 39
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "A",
+      "name": "Ace",
+      "cardId": 40
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "K",
+      "name": "King",
+      "cardId": 41
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "Q",
+      "name": "Queen",
+      "cardId": 42
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "J",
+      "name": "Jack",
+      "cardId": 43
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "2",
+      "name": "2",
+      "cardId": 44
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "3",
+      "name": "3",
+      "cardId": 45
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "4",
+      "name": "4",
+      "cardId": 46
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "5",
+      "name": "5",
+      "cardId": 47
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "6",
+      "name": "6",
+      "cardId": 48
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "7",
+      "name": "7",
+      "cardId": 49
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "8",
+      "name": "8",
+      "cardId": 50
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "9",
+      "name": "9",
+      "cardId": 51
+    },
+    {
+      "suiteId": 4,
+      "faceValue": "10",
+      "name": "10",
+      "cardId": 52
+    }
+  ],
+  "suites": [
+    {
+      "name": "Hearts",
+      "code": "h",
+      "suiteId": 1
+    },
+    {
+      "name": "Diamonds",
+      "code": "d",
+      "suiteId": 2
+    },
+    {
+      "name": "Clubs",
+      "code": "c",
+      "suiteId": 3
+    },
+    {
+      "name": "Spades",
+      "code": "s",
+      "suiteId": 4
+    }
+  ]
+}

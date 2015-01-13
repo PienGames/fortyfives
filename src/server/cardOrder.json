@@ -1,0 +1,678 @@
+{
+  "heartsTrumpCardOrderings": {
+    "suiteId": 1,
+    "cardOrders": [
+      {
+        "cardId": 8,
+        "order": 0,
+        "faceValue": "5",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 4,
+        "order": 1,
+        "faceValue": "J",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 1,
+        "order": 2,
+        "faceValue": "A",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 2,
+        "order": 4,
+        "faceValue": "K",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 3,
+        "order": 5,
+        "faceValue": "Q",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 13,
+        "order": 6,
+        "faceValue": "10",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 12,
+        "order": 7,
+        "faceValue": "9",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 11,
+        "order": 8,
+        "faceValue": "8",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 10,
+        "order": 9,
+        "faceValue": "7",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 9,
+        "order": 10,
+        "faceValue": "6",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 7,
+        "order": 11,
+        "faceValue": "4",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 6,
+        "order": 12,
+        "faceValue": "3",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 5,
+        "order": 13,
+        "faceValue": "2",
+        "suiteCode": "h"
+      }
+    ]
+  },
+  "diamondsTrumpCardOrderings": {
+    "suiteId": 2,
+    "cardOrders": [
+      {
+        "cardId": 21,
+        "order": 0,
+        "faceValue": "5",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 17,
+        "order": 1,
+        "faceValue": "J",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 1,
+        "order": 2,
+        "faceValue": "A",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 14,
+        "order": 3,
+        "faceValue": "A",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 15,
+        "order": 4,
+        "faceValue": "K",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 16,
+        "order": 5,
+        "faceValue": "Q",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 26,
+        "order": 6,
+        "faceValue": "10",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 25,
+        "order": 7,
+        "faceValue": "9",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 24,
+        "order": 8,
+        "faceValue": "8",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 23,
+        "order": 9,
+        "faceValue": "7",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 22,
+        "order": 10,
+        "faceValue": "6",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 20,
+        "order": 11,
+        "faceValue": "4",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 19,
+        "order": 12,
+        "faceValue": "3",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 18,
+        "order": 13,
+        "faceValue": "2",
+        "suiteCode": "d"
+      }
+    ]
+  },
+  "spadesTrumpCardOrderings": {
+    "suiteId": 4,
+    "cardOrders": [
+      {
+        "cardId": 47,
+        "order": 0,
+        "faceValue": "5",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 43,
+        "order": 1,
+        "faceValue": "J",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 1,
+        "order": 2,
+        "faceValue": "A",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 40,
+        "order": 3,
+        "faceValue": "A",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 41,
+        "order": 4,
+        "faceValue": "K",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 42,
+        "order": 5,
+        "faceValue": "Q",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 44,
+        "order": 6,
+        "faceValue": "2",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 45,
+        "order": 7,
+        "faceValue": "3",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 46,
+        "order": 8,
+        "faceValue": "4",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 48,
+        "order": 9,
+        "faceValue": "6",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 49,
+        "order": 10,
+        "faceValue": "7",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 50,
+        "order": 11,
+        "faceValue": "8",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 51,
+        "order": 12,
+        "faceValue": "9",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 52,
+        "order": 13,
+        "faceValue": "10",
+        "suiteCode": "s"
+      }
+    ]
+  },
+  "clubsTrumpCardOrderings": {
+    "suiteId": 3,
+    "cardOrders": [
+      {
+        "cardId": 34,
+        "order": 0,
+        "faceValue": "5",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 30,
+        "order": 1,
+        "faceValue": "J",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 1,
+        "order": 2,
+        "faceValue": "A",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 27,
+        "order": 3,
+        "faceValue": "A",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 28,
+        "order": 4,
+        "faceValue": "K",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 29,
+        "order": 5,
+        "faceValue": "Q",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 31,
+        "order": 6,
+        "faceValue": "2",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 32,
+        "order": 7,
+        "faceValue": "3",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 33,
+        "order": 8,
+        "faceValue": "4",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 35,
+        "order": 9,
+        "faceValue": "6",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 36,
+        "order": 10,
+        "faceValue": "7",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 37,
+        "order": 11,
+        "faceValue": "8",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 38,
+        "order": 12,
+        "faceValue": "9",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 39,
+        "order": 13,
+        "faceValue": "10",
+        "suiteCode": "c"
+      }
+    ]
+  },
+  "heartsNonTrumpCardOrderings": {
+    "suiteId": 1,
+    "cardOrders": [
+      {
+        "cardId": 2,
+        "order": 0,
+        "faceValue": "K",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 3,
+        "order": 1,
+        "faceValue": "Q",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 4,
+        "order": 2,
+        "faceValue": "J",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 13,
+        "order": 3,
+        "faceValue": "10",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 12,
+        "order": 4,
+        "faceValue": "9",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 11,
+        "order": 5,
+        "faceValue": "8",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 10,
+        "order": 6,
+        "faceValue": "7",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 9,
+        "order": 7,
+        "faceValue": "6",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 8,
+        "order": 8,
+        "faceValue": "5",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 7,
+        "order": 9,
+        "faceValue": "4",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 6,
+        "order": 10,
+        "faceValue": "3",
+        "suiteCode": "h"
+      },
+      {
+        "cardId": 5,
+        "order": 11,
+        "faceValue": "2",
+        "suiteCode": "h"
+      }
+    ]
+  },
+  "diamondsNonTrumpCardOrderings": {
+    "suiteId": 2,
+    "cardOrders": [
+      {
+        "cardId": 15,
+        "order": 0,
+        "faceValue": "K",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 16,
+        "order": 1,
+        "faceValue": "Q",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 17,
+        "order": 2,
+        "faceValue": "J",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 26,
+        "order": 3,
+        "faceValue": "10",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 25,
+        "order": 4,
+        "faceValue": "9",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 24,
+        "order": 5,
+        "faceValue": "8",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 23,
+        "order": 6,
+        "faceValue": "7",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 22,
+        "order": 7,
+        "faceValue": "6",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 21,
+        "order": 8,
+        "faceValue": "5",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 20,
+        "order": 9,
+        "faceValue": "4",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 19,
+        "order": 10,
+        "faceValue": "3",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 18,
+        "order": 11,
+        "faceValue": "2",
+        "suiteCode": "d"
+      },
+      {
+        "cardId": 14,
+        "order": 12,
+        "faceValue": "A",
+        "suiteCode": "d"
+      }
+    ]
+  },
+  "spadesNonTrumpCardOrderings": {
+    "suiteId": 4,
+    "cardOrders": [
+      {
+        "cardId": 41,
+        "order": 0,
+        "faceValue": "K",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 42,
+        "order": 1,
+        "faceValue": "Q",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 43,
+        "order": 2,
+        "faceValue": "J",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 40,
+        "order": 3,
+        "faceValue": "A",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 44,
+        "order": 4,
+        "faceValue": "2",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 45,
+        "order": 5,
+        "faceValue": "3",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 46,
+        "order": 6,
+        "faceValue": "4",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 47,
+        "order": 7,
+        "faceValue": "5",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 48,
+        "order": 8,
+        "faceValue": "6",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 49,
+        "order": 9,
+        "faceValue": "7",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 50,
+        "order": 10,
+        "faceValue": "8",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 51,
+        "order": 11,
+        "faceValue": "9",
+        "suiteCode": "s"
+      },
+      {
+        "cardId": 52,
+        "order": 12,
+        "faceValue": "10",
+        "suiteCode": "s"
+      }
+    ]
+  },
+  "clubsNonTrumpCardOrderings": {
+    "suiteId": 3,
+    "cardOrders": [
+      {
+        "cardId": 28,
+        "order": 0,
+        "faceValue": "K",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 29,
+        "order": 1,
+        "faceValue": "Q",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 30,
+        "order": 2,
+        "faceValue": "J",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 27,
+        "order": 3,
+        "faceValue": "A",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 31,
+        "order": 4,
+        "faceValue": "2",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 32,
+        "order": 5,
+        "faceValue": "3",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 33,
+        "order": 6,
+        "faceValue": "4",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 34,
+        "order": 7,
+        "faceValue": "5",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 35,
+        "order": 8,
+        "faceValue": "6",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 36,
+        "order": 9,
+        "faceValue": "7",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 37,
+        "order": 10,
+        "faceValue": "8",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 38,
+        "order": 11,
+        "faceValue": "9",
+        "suiteCode": "c"
+      },
+      {
+        "cardId": 39,
+        "order": 12,
+        "faceValue": "10",
+        "suiteCode": "c"
+      }
+    ]
+  }
+}
