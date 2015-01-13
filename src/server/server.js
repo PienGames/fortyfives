@@ -26,6 +26,10 @@ app.get('/api/rules', function(req, res){
 	res.json(api.getRules());
 });
 
+app.get('/api/deck', function(req, res){	 
+	res.json(api.getDeck());
+});
+
 // Application routes
 app.get('*', function(req, res){
 	res.sendfile('../client/index.html', {'root': '../client/'});
