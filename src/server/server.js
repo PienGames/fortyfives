@@ -36,6 +36,10 @@ app.get('/', function(req, res){
 	res.sendfile('../client/index.html', {'root': '../client/'});
 });
 
+app.get('/api/Users', function(req, res){	 
+	res.json(api.getUsers());
+});
+
 app.listen(port, function() {
     console.log('Express server listening on port ' + port);
     console.log('env = ' + app.get('env') +
