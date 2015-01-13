@@ -8,6 +8,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var port = process.env.PORT || 8001;
 var path = require('path');
+var api = require('./api.js');
 
 var environment = process.env.NODE_ENV;
 
@@ -19,22 +20,20 @@ app.use(logger('dev'));
 app.use(express.static('./src/client/'));
 app.use(express.static('./'));
 
-app.use(function (req, res, next) {
-  var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
-  console.log('Client IP:', ip);
-  next();
-});
-
 path.resolve(__dirname+'.../client/index.html');
 
+//TODO:  better way to manage routes
+app.get('/api/rules', function(req, res){	 
+	res.json(api.getRules());
+});
+
+app.get('/api/deck', function(req, res){	 
+	res.json(api.getDeck());
+});
 
 // Application routes
 app.get('/', function(req, res){
 	res.sendfile('../client/index.html', {'root': '../client/'});
-});
-
-app.get('/todos/', function (req, res, next) {
-	res.json('hello world');
 });
 
 app.listen(port, function() {
