@@ -18,11 +18,23 @@ app.use(logger('dev'));
 
 app.use(express.static('./src/client/'));
 app.use(express.static('./'));
+
+app.use(function (req, res, next) {
+  var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+  console.log('Client IP:', ip);
+  next();
+});
+
 path.resolve(__dirname+'.../client/index.html');
 
+
 // Application routes
-app.get('*', function(req, res){
+app.get('/', function(req, res){
 	res.sendfile('../client/index.html', {'root': '../client/'});
+});
+
+app.get('/todos/', function (req, res, next) {
+	res.json('hello world');
 });
 
 app.listen(port, function() {
