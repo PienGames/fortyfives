@@ -9,7 +9,9 @@ var logger = require('morgan');
 var port = process.env.PORT || 8001;
 var path = require('path');
 var api = require('./api.js');
-
+var mongo = require('mongodb');
+var user = require('./routes/users');
+ 
 var environment = process.env.NODE_ENV;
 
 app.use(favicon(__dirname + '/pg.ico'));
@@ -31,13 +33,11 @@ app.get('/api/deck', function(req, res){
 	res.json(api.getDeck());
 });
 
+app.get('/api/user', api.getUsers);
+
 // Application routes
 app.get('/', function(req, res){
 	res.sendfile('../client/index.html', {'root': '../client/'});
-});
-
-app.get('/api/Users', function(req, res){	 
-	res.json(api.getUsers());
 });
 
 app.listen(port, function() {
