@@ -10,7 +10,6 @@ var port = process.env.PORT || 8001;
 var path = require('path');
 var api = require('./api.js');
 var mongo = require('mongodb');
-var user = require('./routes/users');
  
 var environment = process.env.NODE_ENV;
 

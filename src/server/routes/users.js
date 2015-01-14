@@ -16,8 +16,6 @@ console.log("The 'users' collection doesn't exist...");
 }
 });
 
-
-
 exports.findAll = function(req, res) {
 db.collection('Users', function(err, collection) {
 collection.find().toArray(function(err, items) {
