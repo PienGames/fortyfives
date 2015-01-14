@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'nodemo',
+1 verbose cli   '-gn' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'nodemo', null ]
+6 verbose cache add name=undefined spec="nodemo" args=["nodemo",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'nodemo',
+7 verbose parsed url   path: 'nodemo',
+7 verbose parsed url   href: 'nodemo' }
+8 silly lockFile 3c5e9faf-nodemo nodemo
+9 verbose lock nodemo C:\Users\pierrethelusma\AppData\Roaming\npm-cache\3c5e9faf-nodemo.lock
+10 silly lockFile 3c5e9faf-nodemo nodemo
+11 silly lockFile 3c5e9faf-nodemo nodemo
+12 verbose addNamed [ 'nodemo', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 642e7609-nodemo nodemo@
+15 verbose lock nodemo@ C:\Users\pierrethelusma\AppData\Roaming\npm-cache\642e7609-nodemo.lock
+16 silly addNameRange { name: 'nodemo', range: '*', hasData: false }
+17 verbose request where is /nodemo
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id d6195c76cdd98b80
+20 verbose url raw /nodemo
+21 verbose url resolving [ 'https://registry.npmjs.org/', './nodemo' ]
+22 verbose url resolved https://registry.npmjs.org/nodemo
+23 verbose request where is https://registry.npmjs.org/nodemo
+24 info trying registry request attempt 1 at 06:56:59
+25 http GET https://registry.npmjs.org/nodemo
+26 http 404 https://registry.npmjs.org/nodemo
+27 verbose headers { date: 'Tue, 13 Jan 2015 11:57:00 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-atl6231-ATL',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1421150220.631492,VS0,VE123',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Tue, 13 Jan 2015 11:57:00 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1421150220.631492,VS0,VE123',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 642e7609-nodemo nodemo@
+30 silly lockFile 642e7609-nodemo nodemo@
+31 error 404 404 Not Found: nodemo
+31 error 404
+31 error 404 'nodemo' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.1.7601
+33 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "nodemo" "-gn"
+34 error cwd C:\Users\pierrethelusma\Source\Repos\fortyfives\src\server
+35 error node -v v0.10.35
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
