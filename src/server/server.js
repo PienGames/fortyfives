@@ -3,12 +3,14 @@
 
 var express = require('express');
 var app = express();
+var http = require('http').Server(app);
 var bodyParser = require('body-parser');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var port = process.env.PORT || 8001;
 var path = require('path');
 var api = require('./api.js');
+var chatRoom = require('./sockets/socket.js');
 var mongo = require('mongodb');
  
 var environment = process.env.NODE_ENV;
@@ -36,13 +38,22 @@ app.get('/api/deck', function(req, res){
 app.get('/api/user', api.getUsers);
 
 // Application routes
+app.get('/game', function(req, res){
+	res.sendfile('../client/game.html', {'root': '../fortyfives/src/client/'});
+});
+
 app.get('/', function(req, res){
 	res.sendfile('../client/index.html', {'root': '../client/'});
 });
 
-app.listen(port, function() {
+http.listen(port, function() {
     console.log('Express server listening on port ' + port);
     console.log('env = ' + app.get('env') +
         '\n__dirname = ' + __dirname  +
         '\nprocess.cwd = ' + process.cwd());
 });
+
+chatRoom.initCommunication(http);
+
+
+
