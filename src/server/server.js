@@ -23,6 +23,7 @@ app.use(express.static('./'));
 
 path.resolve(__dirname+'.../client/index.html');
 
+
 //TODO:  better way to manage routes
 app.get('/api/rules', function(req, res){	 
 	res.json(api.getRules());
