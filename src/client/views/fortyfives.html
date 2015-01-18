@@ -17,20 +17,57 @@
     <!-- endbower -->
 
     <style type="text/css">
-    body { background: #339900; }
-	span { display: block; }
-	.outline{ width: 110px; text-align: center; padding: 10px; margin: 10px; background: #FFF; color: #cc0033; }
-	.top{ text-align: left; }
-	.bottom{ text-align: right; }
-	.shadow{ box-shadow: 1px 1px 3px #000; -moz-box-shadow: 1px 1px 3px #000; -webkit-box-shadow: 1px 1px 3px #000; }
-	.rounded{ border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; }
+	    body {
 
-	.rotated {
-	    -ms-transform: rotate(90deg); /* IE 9 */
-	    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-	    transform: rotate(90deg);
-	}
+height: 1300px;
+			background: #006e2e; /* Old browsers */
+background: -moz-linear-gradient(top,  #006e2e 0%, #00773d 65%, #006e2e 97%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006e2e), color-stop(65%,#00773d), color-stop(97%,#006e2e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #006e2e 0%,#00773d 65%,#006e2e 97%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #006e2e 0%,#00773d 65%,#006e2e 97%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #006e2e 0%,#00773d 65%,#006e2e 97%); /* IE10+ */
+background: linear-gradient(to bottom,  #006e2e 0%,#00773d 65%,#006e2e 97%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006e2e', endColorstr='#006e2e',GradientType=0 ); /* IE6-9 */
 
+		}
+		span { display: block; }
+		.outline{ 
+			width: 110px; 
+			text-align: center; 
+			padding: 10px; 
+			margin: 10px; 
+			background: #FFF; 
+			color: #cc0033; 
+		}
+		.top{ 
+			text-align: left; 
+		}
+		.bottom{ 
+			text-align: right; 
+		}
+		.shadow{ 
+			box-shadow: 1px 1px 3px #000; 
+			-moz-box-shadow: 1px 1px 3px #000; 
+			-webkit-box-shadow: 1px 1px 3px #000; 
+		}
+		.rounded{ 
+			border-radius:10px; 
+			-moz-border-radius:10px; 
+			-webkit-border-radius:10px; 
+		}
+
+		.rotated4 {
+		    -ms-transform: rotate(90deg); /* IE 9 */
+		    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+		    transform: rotate(90deg);
+		}
+
+
+		.rotated2{
+			 -ms-transform: rotate(90deg); /* IE 9 */
+		    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+		    transform: rotate(90deg);
+		}
 	</style>
    
 </head>
@@ -66,273 +103,181 @@
 	<p>&nbsp</p>
 	<p>&nbsp</p>
 	<p>&nbsp</p>
-    <div class="container     ">       
-       <div class="row">
-   			<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">
-	    		<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
+    <div class="container">    
+    	<div id="player3" style="width: 30%; margin-left:280px; height: 220px;">
+    		 <div class="row rotated3">
+		    	<div class="col-xs-1">
+		    		<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
 					</div>
 				</div>
-			</div>
-	    	<div class="col-xs-1">
-	    	<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
+		    	<div class="col-xs-1">
+			    	<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
+			    	</div>
+			    </div>
+		    	<div class="col-xs-1">
+		    		<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
 					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
+		    	</div>
+		    	<div class="col-xs-1">
+		    		<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
 					</div>
-				</div>
+		    	</div>
+		    	<div class="col-xs-1">
+		    		<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
+					</div>
+		    	</div>
+	       </div>
+		</div>   
 
-	    	</div>
-	    	<div class="col-xs-1">
-	    		<div class="outline shadow rou ded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
+		<div id="player2" style="float:left; width: 30%; height: 360px; margin-top: 100px;">
+			<div class="row rotated2">	   			
+				<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
 					</div>
 				</div>
-	    	</div>
-	    	<div class="col-xs-1">
-	    		<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
+		    	<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
 					</div>
 				</div>
-	    	</div>
-	    	<div class="col-xs-1">
-	    		<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
+		    	<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
 					</div>
 				</div>
-	    	</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-       </div>
+		    	<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
+					</div>
+				</div>
+		    	<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
+					</div>
+				</div>
+	       </div>
+		</div>
       
-       <div class="row ">
-   			<div class="col-xs-1">
-   				<div class="outline shadow rounded rotated">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
+      <div id="kitty" style="float: left; height: 360px; width: 30%; display: block; margin-top: 100px;">
+      		<div class="row">
+      			<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
 					</div>
 				</div>
-   			</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">
-	    		<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
+      			<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
 					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
+				</div>
+				<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
 					</div>
 				</div>
 	    	</div>
-       </div>
-       
-       <div class="row">
-   			<div class="col-xs-1">
-   				<div class="outline shadow rounded rotated">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div>
-   			</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">
-	    		<div class="outline shadow rounded ">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div>
-	    	</div>
-       </div>
-      
-       <div class="row ">
-   			<div class="col-xs-1">
-   				<div class="outline shadow rounded rotated">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div>
-   			</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">K1</div>
-	    	<div class="col-xs-1">K2</div>
-	    	<div class="col-xs-1">K3</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1"><div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div></div>
-       </div>
-       
-       <div class="row">
-   			<div class="col-xs-1">
-   				<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div>
-   			</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">
-<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div>
-	    	</div>
-       </div>
-      
-       <div class="row">
-   			<div class="col-xs-1">
-   				<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div>
-   			</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">
-	    		<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div>
-	    	</div>
-       </div>      
-        <div class="row">
-   			<div class="col-xs-1">&nbsp;</div>
-	    	<div class="col-xs-1">
-	    		<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div>
-	    	</div>
-	    	<div class="col-xs-1"><div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div></div>
-	    	<div class="col-xs-1">
-	    		<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div>
-	    	</div>
-	    	<div class="col-xs-1">
-	    	<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
-					</div>
-				</div>
+      </div>
 
-	    	</div>
-	    	<div class="col-xs-1">
-	    	<div class="outline shadow rounded">
-					<div class="top">
-						<span>A</span><span>&hearts;</span>
-					</div>
-					<h1>&hearts;</h1>
-					<div class="bottom"><span>&hearts;</span>
-						<span>A</span>
+      <div id="playArea" style="float: left; height: 360px; width: 30%; margin-top:100px; margin-left: 100px; display: none">
+      </div>
+      
+      <div id="player4" style="float: left;  width: 30%; height: 360px; margin-top:100px; margin-left: -50px;">
+       		<div class="row rotated4">
+	   			<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
 					</div>
 				</div>
-	    	</div>
-	    	<div class="col-xs-1">&nbsp;</div>
-       </div>
+		    	<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
+					</div>
+				</div>
+		    	<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
+					</div>
+				</div>
+		    	<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
+					</div>
+				</div>
+		    	<div class="col-xs-1">
+					<div class="shadow rounded">
+						<img src="../assets/images/playing-card-back.jpg" style="width: 110px; height: 150px"/>
+					</div>
+				</div>
+	       </div>
+      </div>
+     
+       
+       <div id="player1" style="clear: both; width: 30%; margin-left:280px; height: 220px;">       
+        	<div class="row rotated1">   			
+		    	<div class="col-xs-1">
+		    		<div class="outline shadow rounded">
+						<div class="top">
+							<span>A</span><span>&hearts;</span>
+						</div>
+						<h1>&hearts;</h1>
+						<div class="bottom"><span>&hearts;</span>
+							<span>A</span>
+						</div>
+					</div>
+		    	</div>
+		    	<div class="col-xs-1">
+		    		<div class="outline shadow rounded">
+						<div class="top">
+							<span>A</span><span>&hearts;</span>
+						</div>
+						<h1>&hearts;</h1>
+						<div class="bottom"><span>&hearts;</span>
+							<span>A</span>
+						</div>
+					</div>
+				</div>
+		    	<div class="col-xs-1">
+		    		<div class="outline shadow rounded">
+						<div class="top">
+							<span>A</span><span>&hearts;</span>
+						</div>
+						<h1>&hearts;</h1>
+						<div class="bottom"><span>&hearts;</span>
+							<span>A</span>
+						</div>
+					</div>
+		    	</div>
+		    	<div class="col-xs-1">
+		    		<div class="outline shadow rounded">
+						<div class="top">
+							<span>A</span><span>&hearts;</span>
+						</div>
+						<h1>&hearts;</h1>
+						<div class="bottom"><span>&hearts;</span>
+							<span>A</span>
+						</div>
+					</div>
+		    	</div>
+		    	<div class="col-xs-1">
+		    		<div class="outline shadow rounded">
+						<div class="top">
+							<span>A</span><span>&hearts;</span>
+						</div>
+						<h1>&hearts;</h1>
+						<div class="bottom"><span>&hearts;</span>
+							<span>A</span>
+						</div>
+					</div>
+		    	</div>	    	
+       		</div>
+       </div>    
+      
     </div>
     <!-- bower:js -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
