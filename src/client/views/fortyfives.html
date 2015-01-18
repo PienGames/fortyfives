@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* This helps the ng-show/ng-hide animations start at the right place. */
+        /* Since Angular has this but needs to load, this gives us the class early. */
+        .ng-hide { display: none!important; }
+    </style>
+    <title ng-bind="title">PienGames</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <base href="/">
+    
+    <!-- bower:css -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- endbower -->
+
+    <style type="text/css">
+    body { background: #339900; }
+	span { display: block; }
+	.outline{ width: 110px; text-align: center; padding: 10px; margin: 10px; background: #FFF; color: #cc0033; }
+	.top{ text-align: left; }
+	.bottom{ text-align: right; }
+	.shadow{ box-shadow: 1px 1px 3px #000; -moz-box-shadow: 1px 1px 3px #000; -webkit-box-shadow: 1px 1px 3px #000; }
+	.rounded{ border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; }
+
+	.rotated {
+	    -ms-transform: rotate(90deg); /* IE 9 */
+	    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	    transform: rotate(90deg);
+	}
+
+	</style>
+   
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+		<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		 <a class="navbar-brand" href="#"><img src="../assets/images/pglogo.png" style="margin-top: -10px"></a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">     
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Contact</a></li>
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Account<span class="caret"></span></a>
+			  <ul class="dropdown-menu" role="menu">
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Register</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<p>&nbsp</p>
+	<p>&nbsp</p>
+	<p>&nbsp</p>
+    <div class="container     ">       
+       <div class="row">
+   			<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">
+	    		<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+			</div>
+	    	<div class="col-xs-1">
+	    	<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+
+	    	</div>
+	    	<div class="col-xs-1">
+	    		<div class="outline shadow rou ded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+	    	</div>
+	    	<div class="col-xs-1">
+	    		<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+	    	</div>
+	    	<div class="col-xs-1">
+	    		<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+	    	</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+       </div>
+      
+       <div class="row ">
+   			<div class="col-xs-1">
+   				<div class="outline shadow rounded rotated">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+   			</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">
+	    		<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+	    	</div>
+       </div>
+       
+       <div class="row">
+   			<div class="col-xs-1">
+   				<div class="outline shadow rounded rotated">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+   			</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">
+	    		<div class="outline shadow rounded ">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+	    	</div>
+       </div>
+      
+       <div class="row ">
+   			<div class="col-xs-1">
+   				<div class="outline shadow rounded rotated">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+   			</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">K1</div>
+	    	<div class="col-xs-1">K2</div>
+	    	<div class="col-xs-1">K3</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1"><div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div></div>
+       </div>
+       
+       <div class="row">
+   			<div class="col-xs-1">
+   				<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+   			</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">
+<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+	    	</div>
+       </div>
+      
+       <div class="row">
+   			<div class="col-xs-1">
+   				<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+   			</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">
+	    		<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+	    	</div>
+       </div>      
+        <div class="row">
+   			<div class="col-xs-1">&nbsp;</div>
+	    	<div class="col-xs-1">
+	    		<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+	    	</div>
+	    	<div class="col-xs-1"><div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div></div>
+	    	<div class="col-xs-1">
+	    		<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+	    	</div>
+	    	<div class="col-xs-1">
+	    	<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+
+	    	</div>
+	    	<div class="col-xs-1">
+	    	<div class="outline shadow rounded">
+					<div class="top">
+						<span>A</span><span>&hearts;</span>
+					</div>
+					<h1>&hearts;</h1>
+					<div class="bottom"><span>&hearts;</span>
+						<span>A</span>
+					</div>
+				</div>
+	    	</div>
+	    	<div class="col-xs-1">&nbsp;</div>
+       </div>
+    </div>
+    <!-- bower:js -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <!-- endbower -->
+	
+	
+</body>
+</html>

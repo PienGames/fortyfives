@@ -1,6 +1,8 @@
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/FortyFivesDB', function(){
-    console.log('mongodb connected')
-});
+(function () {
+	var mongoose = require('mongoose');
+	mongoose.connect('mongodb://localhost/FortyFivesDB', function(){
+	    console.log('mongodb connected')
+	});
 
-module.exports = mongoose;
+	module.exports = mongoose;
+}());
