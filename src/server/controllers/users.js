@@ -13,8 +13,8 @@
             });
     });
 
-    router.get('/api/users/:user_name', function(req, res) {
-        User.findByUserName(req.params.user_name, function (err, user) {
+    router.get('/api/users/:email_address', function(req, res) {
+        User.findByEmail(req.params.email_address, function (err, user) {
             if (err){
                 return next(err);
             }
