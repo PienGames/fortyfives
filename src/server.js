@@ -4,6 +4,7 @@
 (function (){
 	var express = require('express');
 	var app = express();
+	var bodyParser = require('body-parser')
 	var http = require('http').Server(app);
 
 	var port = process.env.PORT || 8001;
@@ -18,6 +19,11 @@
 	// access game.html with http://localhost:8001/views/game.html
 	app.use(express.static(__dirname + '/client'));
 
+	// parse application/x-www-form-urlencoded
+	app.use(bodyParser.urlencoded({ extended: false }))
+
+	// parse application/json
+	app.use(bodyParser.json())
 
 	app.use(require('./server/controllers/deck'));
 	app.use(require('./server/controllers/rules'));
